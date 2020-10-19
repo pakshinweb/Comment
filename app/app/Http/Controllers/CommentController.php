@@ -14,7 +14,6 @@ class CommentController extends Controller
     public function index()
     {
         $comments = Comment::orderBy('id', 'DESC')->get();
-
         return view('comment',['comments' => $comments]);
     }
 
@@ -24,7 +23,6 @@ class CommentController extends Controller
             'name' => 'required',
             'comment' => 'required',
         ]);
-
         Comment::create($data);
         return redirect()->route('home');
     }
