@@ -7,6 +7,11 @@ git clone https://github.com/pakshinweb/Comment.git
 ```
 cd Comment/
 ```
+### Install Docker
+```
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
 ### Stop all
 ```
 docker stop $(docker ps -q -a)
