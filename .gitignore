@@ -1,0 +1,12 @@
+app/vendor/
+docker/data/
+app/node_modules/
+app/resources/*
+
+app/storage/*.key
+app/.env
+app/.phpunit.result.cache
+app/.env.backup
+app/npm-debug.log
+app/yarn-error.log
+app/composer.lock
