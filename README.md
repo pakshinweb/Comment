@@ -22,10 +22,11 @@ docker-compose build
 docker-compose up -d
 docker-compose exec php mkdir ./database/seeds
 ```
-### composer install
+### Composer install
 ```
 docker-compose exec php composer install --no-scripts 
 ```
+### key:generate and migrate
 ```
 docker-compose exec php chown -R www-data:www-data ./
 docker-compose exec php mv .env.example .env
