@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+}
+*, *:after, *:before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: auto;
+    max-width: 100%;
+    margin: auto;
+}
+.flex {
+    display: flex;
+}
+.space-between {
+    justify-content: space-between;
+}
+.colum {
+    flex-direction: column;
+}
+.row {
+    max-width: 945px;
+    display: flex;
+    margin: auto;
+}
+.head {
+    height: 230px;
+    background: #f9f9f9;
+    background-image: url(/resources/public/img/bot.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+}
+
+.text {
+    margin-bottom: 8px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+}
+.head .tel {
+    margin-top: 40px;
+}
+
+.head .email {
+    margin-top: 13px;
+}
+
+.head .title {
+    margin-top: 80px;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 48px;
+}
+.head .logo {
+    margin-top: 30px;
+}
+.content {
+    background: #eeeeee;
+    padding-bottom: 55px;
+}
+.footer {
+    background: #f9f9f9;
+    height: 137px;
+}
+.footer .logo img {
+    margin-top: 17px;
+    width: 101px;
+}
+.footer .info {
+    margin-left: 37px;
+    margin-top: 39px;
+}
+.copr {
+    font-size: 12px;
+    font-weight: 400;
+}
+.commet {
+    list-style: none;
+    margin-bottom: 30px;
+    margin-top: 36px;
+}
+.commet span {
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 41px;
+}
+.commet small {
+    font-size: 11px;
+    font-weight: 300;
+}
+.commet b {
+    padding-right: 10px;
+}
+.commet li:first-child {
+    margin-bottom: 17px;
+}
+.claim {
+    margin-top: 25px;
+    max-width: 460px;
+}
+.claim h2 {
+    margin-bottom: 22px;
+}
+.claim label {
+    margin-bottom: 17px;
+}
+.claim .name {
+    margin-bottom: 22px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px solid #000000;
+    padding: 19px;
+}
+.claim .post {
+    text-align: start;
+    height: 130px;
+    border: 2px solid #000000;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    background: #eeeeee;
+    padding: 19px;
+}
+.claim .button {
+    font-size: 18px;
+    font-weight: 300;
+    width: 130px;
+    height: 40px;
+    border: 2px solid #000000;
+    align-self: flex-end;
+    border-radius: 5px;
+}
+
+.alert {
+    color: red;
+}

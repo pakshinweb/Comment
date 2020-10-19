@@ -1,7 +1,6 @@
 app/vendor/
 docker/data/
 app/node_modules/
-app/resources/*
 app/storage/
 
 app/.env
