@@ -21,7 +21,12 @@ docker stop $(docker ps -q -a)
 docker-compose build
 docker-compose up -d
 docker-compose exec php mkdir ./database/seeds
+```
+### composer install
+```
 docker-compose exec php composer install --no-scripts 
+```
+```
 docker-compose exec php chown -R www-data:www-data ./
 docker-compose exec php mv .env.example .env
 docker-compose exec php php artisan key:generate
