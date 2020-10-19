@@ -47,6 +47,9 @@
             @endif
 
             <hr>
+
+            <form method="POST" action="/" class="claim flex colum">
+                <h2>Оставить комментарий</h2>
             @if ($errors->any())
                 <div class="alert alert-danger">
                     <ul>
@@ -56,8 +59,6 @@
                     </ul>
                 </div>
             @endif
-            <form method="POST" action="/" class="claim flex colum">
-                <h2>Оставить комментарий</h2>
                 <label for="">Ваше имя</label>
                 <input class="name" type="text" name="name">
                 <label for="">Ваш комментарий</label>
